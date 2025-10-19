@@ -5,7 +5,7 @@ stop
 //未完成
 
 erode
-find_contours
+
 rect
 
 
@@ -21,5 +21,5 @@ roi_color
 resize
 threshold
 split
-
+find_contours
 
