@@ -60,7 +60,9 @@ std::vector<cv::Mat> erode(const cv::Mat& src_erode, const cv::Mat& src_dilate) 
 
     cv::erode(thre_erode,dst_erode,kernel_rect,cv::Point(-1,-1),2);
     cv::dilate(thre_dilate,dst_dilate,kernel_rect,cv::Point(-1,-1),3);
-
+    
+    
+    
 
     return {dst_erode, dst_dilate};
 }
