@@ -17,5 +17,13 @@ float compute_iou(const cv::Rect& a, const cv::Rect& b) {
      * 运行测试点，显示通过就行，不通过会告诉你哪一组矩形错了。
     */
     // IMPLEMENT YOUR CODE HERE
-    return 0.f;
+
+    cv::Rect Inter = b & a;
+    
+    //std::cout <<Inter.area()<<std::endl;
+    
+
+
+
+    return Inter.area()*1.0/(a.area()+b.area()-Inter.area())*1.0;
 }

@@ -68,6 +68,7 @@ bool check_self(cv::Mat &input, std::unordered_map<int, cv::Rect> res) {
 
 bool test_roi_color() {
     cv::Mat input = cv::imread("../assets/roi_color/input.png");
+    cv::Mat i = cv::imread("../assets/roi_color/2.png");
 
     std::unordered_map<int, cv::Rect> res = roi_color(input);
 

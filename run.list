@@ -1,17 +1,17 @@
-
+erode
 
 stop
 
 //未完成
 
-erode
-
-rect
 
 
-compute_iou
-compute_area_ratio
-roi_color
+
+
+
+
+
+
 
 
 
@@ -22,4 +22,9 @@ resize
 threshold
 split
 find_contours
+compute_iou
+rect
+compute_area_ratio
+roi_color
+
 
