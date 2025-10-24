@@ -93,6 +93,7 @@ void run_tests(std::vector<std::string>& tests) {
 
 
 int main() {
+
     terminal_cols = get_terminal_width();
 
     // 读取测试点

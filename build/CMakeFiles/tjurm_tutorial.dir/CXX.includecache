@@ -6,15 +6,35 @@
 
 #IncludeRegexTransform: 
 
-../include/impls.h
+../include/log.h
+cstdio
+-
+
+../include/tests.h
+string
+-
+
+../include/utils.h
 opencv2/opencv.hpp
+-
+
+/home/krmms/tjurm2026-test02/main.cc
+tests.h
+/home/krmms/tjurm2026-test02/tests.h
+utils.h
+/home/krmms/tjurm2026-test02/utils.h
+log.h
+/home/krmms/tjurm2026-test02/log.h
+cstdio
+-
+iostream
+-
+fstream
+-
+map
 -
 vector
 -
-
-/home/krmms/tjurm2026-test02/src/erode/impl.cc
-impls.h
-/home/krmms/tjurm2026-test02/src/erode/impls.h
 
 /usr/local/opencv4.5.4/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
